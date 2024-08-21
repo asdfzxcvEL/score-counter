@@ -1,10 +1,9 @@
 body {
     margin: 0;
-    color: white;
     background: #1B244A;
-    font-size: 40px;
-    text-align: center;
+    color: #EEEEEE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -12,33 +11,28 @@ body {
     justify-content: space-around;
 }
 
-@font-face {
-    src: url(CursedTimerUlil-Aznm.ttf);
-    font-family: scoreText;
-}
 
 .score {
-    font-family: scoreText;
-    background: black;
-    font-size: 90px;
-    color: #F94F6D;
-    padding: 15px 20px 0px 18px;
-    width: 122px;
-    margin: 0px auto 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;       
+    font-size: 90px;                                 
+    background: #080001;
+    padding: 15px 0px 0px 0px;
     border-radius: 5px;
-    
+    color: #F94F6D;
 }
 
 h3 {
-    margin: 68px auto 21px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .btn {
-    background: #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;      
+    background: none;
     border: 2px solid #9AABD8;
     border-radius: 5px;
-    font-family: scoreText;
     font-size: 18px;
     padding: 10px;
     color: #9AABD8;
+    margin-top: 25px;
 }
